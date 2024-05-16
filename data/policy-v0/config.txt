@@ -1,0 +1,4 @@
+obs = np.hstack(((pos_ref - drone.position), (vel_ref - drone.velocity_e), (attitude_ref[-1, :] - drone.attitude)))
+
+
+
